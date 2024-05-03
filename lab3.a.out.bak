@@ -1,0 +1,23 @@
+9       n = number of intervals (rows of input) (n <= 50)
+1 2 1   s, f, v = start time, finish time, value of interval (ordered by ascending finish time)
+1 3 3
+2 4 1
+3 5 1
+4 6 2
+5 7 1
+6 8 2
+7 9 1
+8 10 2
+<<< This line is to be replaced by your DP table(s) >>>
+5       room1 number of intervals
+1 2 1   start, finish, value for this interval
+2 4 1
+4 6 2
+6 8 2
+8 10 2
+4       room2 number of intervals
+1 3 3   start, finish, value for this interval
+3 5 1
+5 7 1
+7 9 1
+14      total value (max sum)
